@@ -9,11 +9,11 @@
          processIsolation="false"
          stopOnFailure="false"
          syntaxCheck="false"
-         bootstrap="./bootstrap.php"
+         bootstrap="./test/bootstrap.php"
 >
     <testsuites>
-        <testsuite name="String Calculator">
-            <directory>.</directory>
+        <testsuite name="Unit Tests">
+            <directory>./test/</directory>
         </testsuite>
     </testsuites>
 
