@@ -12,4 +12,5 @@ class Card{
 	public function getValue(){
 		return $this->value;
 	}
+
 }
