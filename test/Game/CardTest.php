@@ -20,4 +20,5 @@ class CardTest extends \PHPUnit_Framework_TestCase {
 
 		$this->assertEquals(7, $this->card->getValue());
 	}
+
 }
