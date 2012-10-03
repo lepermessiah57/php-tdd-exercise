@@ -14,4 +14,10 @@ class CardTest extends \PHPUnit_Framework_TestCase {
 
 		$this->assertEquals(2, $this->card->getValue());
 	}
+
+	public function testCanGetValueAgain(){
+		$this->card->setValue(7);
+
+		$this->assertEquals(7, $this->card->getValue());
+	}
 }
